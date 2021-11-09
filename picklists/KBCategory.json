@@ -1,0 +1,99 @@
+{
+    "@context": "\/api\/3\/contexts\/PicklistName",
+    "@id": "\/api\/3\/picklist_names\/6d9501b5-6985-488b-9bdc-6303aa561c8b",
+    "@type": "PicklistName",
+    "name": "KBCategory",
+    "system": false,
+    "picklists": [
+        {
+            "@id": "\/api\/3\/picklists\/de4f7bba-5364-449b-9bd8-f77955d41b58",
+            "@type": "Picklist",
+            "itemValue": "Licensing",
+            "orderIndex": 0,
+            "color": "#a30251",
+            "icon": null,
+            "listName": "\/api\/3\/picklist_names\/6d9501b5-6985-488b-9bdc-6303aa561c8b",
+            "uuid": "de4f7bba-5364-449b-9bd8-f77955d41b58",
+            "id": 302
+        },
+        {
+            "@id": "\/api\/3\/picklists\/83b10b80-ce6b-4154-8e97-8acee24755a6",
+            "@type": "Picklist",
+            "itemValue": "Common Issues",
+            "orderIndex": 4,
+            "color": "#3314b8",
+            "icon": null,
+            "listName": "\/api\/3\/picklist_names\/6d9501b5-6985-488b-9bdc-6303aa561c8b",
+            "uuid": "83b10b80-ce6b-4154-8e97-8acee24755a6",
+            "id": 303
+        },
+        {
+            "@id": "\/api\/3\/picklists\/01b2c9f8-5cac-4c66-b2f3-af8ddcb5c048",
+            "@type": "Picklist",
+            "itemValue": "Playbooks",
+            "orderIndex": 5,
+            "color": "#9514b8",
+            "icon": null,
+            "listName": "\/api\/3\/picklist_names\/6d9501b5-6985-488b-9bdc-6303aa561c8b",
+            "uuid": "01b2c9f8-5cac-4c66-b2f3-af8ddcb5c048",
+            "id": 304
+        },
+        {
+            "@id": "\/api\/3\/picklists\/f5add8a2-85e6-4d61-a049-1b380736aa38",
+            "@type": "Picklist",
+            "itemValue": "Vulnerability Management",
+            "orderIndex": 1,
+            "color": "#b87e14",
+            "icon": null,
+            "listName": "\/api\/3\/picklist_names\/6d9501b5-6985-488b-9bdc-6303aa561c8b",
+            "uuid": "f5add8a2-85e6-4d61-a049-1b380736aa38",
+            "id": 305
+        },
+        {
+            "@id": "\/api\/3\/picklists\/f4fe80a3-3fa0-4461-849f-0303f0de8b33",
+            "@type": "Picklist",
+            "itemValue": "Incident Management",
+            "orderIndex": 2,
+            "color": "#14b88f",
+            "icon": null,
+            "listName": "\/api\/3\/picklist_names\/6d9501b5-6985-488b-9bdc-6303aa561c8b",
+            "uuid": "f4fe80a3-3fa0-4461-849f-0303f0de8b33",
+            "id": 306
+        },
+        {
+            "@id": "\/api\/3\/picklists\/aff2c6c1-bd36-4d94-9b70-c94ba7a27eda",
+            "@type": "Picklist",
+            "itemValue": "Escalation",
+            "orderIndex": 3,
+            "color": "#b83014",
+            "icon": null,
+            "listName": "\/api\/3\/picklist_names\/6d9501b5-6985-488b-9bdc-6303aa561c8b",
+            "uuid": "aff2c6c1-bd36-4d94-9b70-c94ba7a27eda",
+            "id": 307
+        },
+        {
+            "@id": "\/api\/3\/picklists\/c3a91d3c-f3a8-49dd-a255-d68568fa59a0",
+            "@type": "Picklist",
+            "itemValue": "Support",
+            "orderIndex": 6,
+            "color": "#13c92e",
+            "icon": null,
+            "listName": "\/api\/3\/picklist_names\/6d9501b5-6985-488b-9bdc-6303aa561c8b",
+            "uuid": "c3a91d3c-f3a8-49dd-a255-d68568fa59a0",
+            "id": 308
+        },
+        {
+            "@id": "\/api\/3\/picklists\/845e8f27-0ac4-41fa-8c19-6d95efcdbf75",
+            "@type": "Picklist",
+            "itemValue": "Tools",
+            "orderIndex": 7,
+            "color": "#1b6dc9",
+            "icon": null,
+            "listName": "\/api\/3\/picklist_names\/6d9501b5-6985-488b-9bdc-6303aa561c8b",
+            "uuid": "845e8f27-0ac4-41fa-8c19-6d95efcdbf75",
+            "id": 309
+        }
+    ],
+    "uuid": "6d9501b5-6985-488b-9bdc-6303aa561c8b",
+    "id": 52
+}
