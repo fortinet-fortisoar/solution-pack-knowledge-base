@@ -1,0 +1,344 @@
+{
+    "@context": "\/api\/3\/contexts\/StagingModelMetadata",
+    "@id": "\/api\/3\/staging_model_metadatas\/fed83de6-7992-4a1b-ad6e-3a2800bf2ead",
+    "@type": "StagingModelMetadata",
+    "type": "knowledge_base",
+    "parentType": null,
+    "tableName": "knowledge_base",
+    "ownable": true,
+    "userOwnable": false,
+    "trackable": true,
+    "taggable": true,
+    "peerReplicable": false,
+    "defaultSort": [],
+    "uniqueConstraint": [],
+    "indexable": true,
+    "writable": true,
+    "attributes": [
+        {
+            "@id": "\/api\/3\/attribute_metadatas\/66339856-439e-4f0b-b21e-303380cdbd91",
+            "@type": "AttributeMetadata",
+            "type": "comments",
+            "name": "comments",
+            "length": null,
+            "orderIndex": 4,
+            "formType": "manyToMany",
+            "dataSource": {
+                "model": "comments"
+            },
+            "searchable": false,
+            "peerReplicable": true,
+            "system": false,
+            "encrypted": false,
+            "gridColumn": false,
+            "collection": true,
+            "inversedField": "knowledge_base",
+            "ownsRelationship": true,
+            "validation": {
+                "required": false,
+                "minlength": 0,
+                "maxlength": 10485761
+            },
+            "bulkAction": [],
+            "dataSourceFilters": null,
+            "defaultValue": null,
+            "tooltip": null,
+            "visibility": true,
+            "htmlEscape": false,
+            "orphanRemoval": null,
+            "readable": true,
+            "writeable": true,
+            "identifier": null,
+            "unique": false,
+            "recommend": false,
+            "sattrib": "\/api\/3\/staging_model_metadatas\/fed83de6-7992-4a1b-ad6e-3a2800bf2ead",
+            "uuid": "66339856-439e-4f0b-b21e-303380cdbd91",
+            "displayName": "{{ comments }}",
+            "descriptions": {
+                "singular": "Comments"
+            }
+        },
+        {
+            "@id": "\/api\/3\/attribute_metadatas\/29527c1f-0fb7-410d-91eb-e20fed9def20",
+            "@type": "AttributeMetadata",
+            "type": "string",
+            "name": "title",
+            "length": null,
+            "orderIndex": 1,
+            "formType": "text",
+            "dataSource": null,
+            "searchable": true,
+            "peerReplicable": true,
+            "system": false,
+            "encrypted": false,
+            "gridColumn": true,
+            "collection": false,
+            "inversedField": null,
+            "ownsRelationship": false,
+            "validation": {
+                "required": true,
+                "minlength": 0,
+                "maxlength": 10485761,
+                "_enableRange": false
+            },
+            "bulkAction": {
+                "allow": false,
+                "buttonText": "",
+                "buttonIcon": "",
+                "buttonClass": "btn btn-default btn-sm"
+            },
+            "dataSourceFilters": null,
+            "defaultValue": "",
+            "tooltip": null,
+            "visibility": true,
+            "htmlEscape": false,
+            "orphanRemoval": null,
+            "readable": true,
+            "writeable": true,
+            "identifier": null,
+            "unique": false,
+            "recommend": false,
+            "sattrib": "\/api\/3\/staging_model_metadatas\/fed83de6-7992-4a1b-ad6e-3a2800bf2ead",
+            "uuid": "29527c1f-0fb7-410d-91eb-e20fed9def20",
+            "displayName": "{{ title }}",
+            "descriptions": {
+                "singular": "Title"
+            }
+        },
+        {
+            "@id": "\/api\/3\/attribute_metadatas\/2ef1207a-0bf2-4755-967b-85e158dbcf89",
+            "@type": "AttributeMetadata",
+            "type": "string",
+            "name": "notes",
+            "length": null,
+            "orderIndex": 2,
+            "formType": "html",
+            "dataSource": null,
+            "searchable": true,
+            "peerReplicable": true,
+            "system": false,
+            "encrypted": false,
+            "gridColumn": false,
+            "collection": false,
+            "inversedField": null,
+            "ownsRelationship": false,
+            "validation": {
+                "required": true,
+                "minlength": 0,
+                "maxlength": 10485761,
+                "_enableRange": false
+            },
+            "bulkAction": {
+                "allow": false,
+                "buttonText": "",
+                "buttonIcon": "",
+                "buttonClass": "btn btn-default btn-sm"
+            },
+            "dataSourceFilters": null,
+            "defaultValue": "",
+            "tooltip": null,
+            "visibility": true,
+            "htmlEscape": false,
+            "orphanRemoval": null,
+            "readable": true,
+            "writeable": true,
+            "identifier": null,
+            "unique": false,
+            "recommend": false,
+            "sattrib": "\/api\/3\/staging_model_metadatas\/fed83de6-7992-4a1b-ad6e-3a2800bf2ead",
+            "uuid": "2ef1207a-0bf2-4755-967b-85e158dbcf89",
+            "displayName": "{{ notes }}",
+            "descriptions": {
+                "singular": "Notes"
+            }
+        },
+        {
+            "@id": "\/api\/3\/attribute_metadatas\/89c02d10-a420-4191-bf9d-d3c26c358de1",
+            "@type": "AttributeMetadata",
+            "type": "picklists",
+            "name": "category",
+            "length": null,
+            "orderIndex": 3,
+            "formType": "multiselectpicklist",
+            "dataSource": {
+                "model": "picklists",
+                "query": {
+                    "logic": "AND",
+                    "filters": [
+                        {
+                            "field": "listName__name",
+                            "operator": "eq",
+                            "value": "KBCategory"
+                        }
+                    ],
+                    "sort": [
+                        {
+                            "field": "orderIndex",
+                            "direction": "ASC"
+                        }
+                    ]
+                },
+                "displayConditions": {
+                    "de4f7bba-5364-449b-9bd8-f77955d41b58": {
+                        "visibility": "visible",
+                        "conditions": null
+                    },
+                    "6b108126-c4e5-4f7a-b48b-e76465654a56": {
+                        "visibility": "visible",
+                        "conditions": null
+                    },
+                    "f5add8a2-85e6-4d61-a049-1b380736aa38": {
+                        "visibility": "visible",
+                        "conditions": null
+                    },
+                    "f4fe80a3-3fa0-4461-849f-0303f0de8b33": {
+                        "visibility": "visible",
+                        "conditions": null
+                    },
+                    "aff2c6c1-bd36-4d94-9b70-c94ba7a27eda": {
+                        "visibility": "visible",
+                        "conditions": null
+                    },
+                    "83b10b80-ce6b-4154-8e97-8acee24755a6": {
+                        "visibility": "visible",
+                        "conditions": null
+                    },
+                    "ee07dc80-8052-438a-962a-c9ec1a1f0a24": {
+                        "visibility": "visible",
+                        "conditions": null
+                    },
+                    "01b2c9f8-5cac-4c66-b2f3-af8ddcb5c048": {
+                        "visibility": "visible",
+                        "conditions": null
+                    },
+                    "50324a24-9fe8-465f-b980-e51b6334a666": {
+                        "visibility": "visible",
+                        "conditions": null
+                    }
+                }
+            },
+            "searchable": false,
+            "peerReplicable": true,
+            "system": false,
+            "encrypted": false,
+            "gridColumn": true,
+            "collection": true,
+            "inversedField": null,
+            "ownsRelationship": false,
+            "validation": {
+                "required": false,
+                "minlength": 0,
+                "maxlength": 10485761,
+                "_enableRange": false
+            },
+            "bulkAction": [],
+            "dataSourceFilters": null,
+            "defaultValue": null,
+            "tooltip": null,
+            "visibility": true,
+            "htmlEscape": false,
+            "orphanRemoval": null,
+            "readable": true,
+            "writeable": true,
+            "identifier": null,
+            "unique": false,
+            "recommend": false,
+            "sattrib": "\/api\/3\/staging_model_metadatas\/fed83de6-7992-4a1b-ad6e-3a2800bf2ead",
+            "uuid": "89c02d10-a420-4191-bf9d-d3c26c358de1",
+            "displayName": "{{ category }}",
+            "descriptions": {
+                "singular": "Category"
+            }
+        },
+        {
+            "@id": "\/api\/3\/attribute_metadatas\/77e72336-b21c-4747-a14a-a21cbfbffeca",
+            "@type": "AttributeMetadata",
+            "type": "knowledge_base",
+            "name": "relatedKnowledgeBase",
+            "length": null,
+            "orderIndex": 5,
+            "formType": "manyToMany",
+            "dataSource": {
+                "model": "knowledge_base"
+            },
+            "searchable": false,
+            "peerReplicable": true,
+            "system": false,
+            "encrypted": false,
+            "gridColumn": false,
+            "collection": true,
+            "inversedField": "knowledge_base",
+            "ownsRelationship": true,
+            "validation": {
+                "required": false,
+                "minlength": 0,
+                "maxlength": 10485761
+            },
+            "bulkAction": [],
+            "dataSourceFilters": null,
+            "defaultValue": null,
+            "tooltip": null,
+            "visibility": true,
+            "htmlEscape": false,
+            "orphanRemoval": null,
+            "readable": true,
+            "writeable": true,
+            "identifier": null,
+            "unique": false,
+            "recommend": false,
+            "sattrib": "\/api\/3\/staging_model_metadatas\/fed83de6-7992-4a1b-ad6e-3a2800bf2ead",
+            "uuid": "77e72336-b21c-4747-a14a-a21cbfbffeca",
+            "displayName": "{{ relatedKnowledgeBase }}",
+            "descriptions": {
+                "singular": "Related Knowledge Base"
+            }
+        },
+        {
+            "@id": "\/api\/3\/attribute_metadatas\/3ffdd32d-6d16-4003-906b-41156923e9da",
+            "@type": "AttributeMetadata",
+            "type": "knowledge_base",
+            "name": "knowledge_base",
+            "length": null,
+            "orderIndex": 5,
+            "formType": "manyToMany",
+            "dataSource": {
+                "model": "knowledge_base"
+            },
+            "searchable": false,
+            "peerReplicable": true,
+            "system": false,
+            "encrypted": false,
+            "gridColumn": false,
+            "collection": true,
+            "inversedField": "relatedKnowledgeBase",
+            "ownsRelationship": false,
+            "validation": null,
+            "bulkAction": null,
+            "dataSourceFilters": null,
+            "defaultValue": null,
+            "tooltip": null,
+            "visibility": true,
+            "htmlEscape": false,
+            "orphanRemoval": null,
+            "readable": true,
+            "writeable": true,
+            "identifier": null,
+            "unique": false,
+            "recommend": false,
+            "sattrib": "\/api\/3\/staging_model_metadatas\/fed83de6-7992-4a1b-ad6e-3a2800bf2ead",
+            "uuid": "3ffdd32d-6d16-4003-906b-41156923e9da",
+            "displayName": "{{Knowledge Base}}",
+            "descriptions": {
+                "singular": "Knowledge Base"
+            }
+        }
+    ],
+    "system": false,
+    "module": "knowledge_base",
+    "uuid": "fed83de6-7992-4a1b-ad6e-3a2800bf2ead",
+    "displayName": "{{ question }}",
+    "descriptions": {
+        "singular": "Knowledge Base",
+        "plural": "Knowledge Base"
+    }
+}

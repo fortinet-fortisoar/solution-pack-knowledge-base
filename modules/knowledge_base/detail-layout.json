@@ -1,0 +1,108 @@
+{
+    "@context": "\/api\/3\/contexts\/SystemViewTemplate",
+    "@type": "SystemViewTemplate",
+    "type": "rows",
+    "config": {
+        "rows": [
+            {
+                "columns": [
+                    {
+                        "widgets": [
+                            {
+                                "type": "primaryDetail",
+                                "config": {
+                                    "wid": "2b1fdefe-9a5f-45b1-9c30-b221e9c36b64",
+                                    "idField": "id",
+                                    "picklistFieldReadOnly": false,
+                                    "titleFieldReadOnly": false,
+                                    "titleFieldLinky": true,
+                                    "featuredRelationship": {
+                                        "field": null,
+                                        "preText": "Under Investigation In",
+                                        "query": null,
+                                        "statusField": null,
+                                        "sort": []
+                                    },
+                                    "titleField": "title"
+                                }
+                            },
+                            {
+                                "type": "editableFormGroup",
+                                "config": {
+                                    "wid": "eef9488e-58bc-4dc4-a360-205882fd2c5d",
+                                    "rows": [
+                                        {
+                                            "columns": [
+                                                {
+                                                    "fields": [
+                                                        {
+                                                            "name": "category",
+                                                            "highlightMode": true,
+                                                            "linky": true,
+                                                            "readOnly": false
+                                                        },
+                                                        {
+                                                            "name": "notes",
+                                                            "highlightMode": true,
+                                                            "linky": true,
+                                                            "readOnly": false
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            }
+                        ],
+                        "style": "col-lg-12"
+                    }
+                ],
+                "wid": "fdb64641-f295-416c-b8f3-4df1755202a6",
+                "_collapsed": false
+            },
+            {
+                "columns": [
+                    {
+                        "widgets": [
+                            {
+                                "type": "tabs",
+                                "config": {
+                                    "tabs": [
+                                        {
+                                            "title": "Related KB",
+                                            "widget": {
+                                                "type": "relationship.subtab",
+                                                "config": {
+                                                    "excludes": [
+                                                        "notes",
+                                                        "comments",
+                                                        "userOwners",
+                                                        "attachments",
+                                                        "knowledge_base"
+                                                    ],
+                                                    "wid": "5b8188e2-8e4d-402e-8c74-c5ea8c8e5b82",
+                                                    "expandableCol": []
+                                                }
+                                            },
+                                            "show": true,
+                                            "icon": "fa fa-none"
+                                        }
+                                    ],
+                                    "wid": "77c22b16-5b2c-4db0-bd57-7379b4d97613",
+                                    "isPrimaryTab": false
+                                }
+                            }
+                        ],
+                        "style": "col-lg-12"
+                    }
+                ],
+                "wid": "94ac6c1d-053e-47b8-9154-cdad60bffaa5",
+                "_collapsed": false
+            }
+        ],
+        "actionButtons": [],
+        "wid": "3c2ab58c-5d30-4f95-a397-d4eb549177d4"
+    },
+    "uuid": "modules-knowledge_base-detail"
+}

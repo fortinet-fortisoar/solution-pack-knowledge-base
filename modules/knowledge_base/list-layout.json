@@ -1,0 +1,49 @@
+{
+    "@context": "\/api\/3\/contexts\/SystemViewTemplate",
+    "@type": "SystemViewTemplate",
+    "type": "rows",
+    "config": {
+        "rows": [
+            {
+                "columns": [
+                    {
+                        "widgets": [
+                            {
+                                "type": "grid",
+                                "config": {
+                                    "wid": "995dde53-b553-46bf-a000-9cdccd9afb05",
+                                    "module": "knowledge_base",
+                                    "columns": [
+                                        "title",
+                                        "category",
+                                        "id"
+                                    ],
+                                    "expandableCol": [
+                                        {
+                                            "openTab": false,
+                                            "name": "notes"
+                                        }
+                                    ],
+                                    "relationshipField": [],
+                                    "checkboxStatus": true,
+                                    "actionButtons": [],
+                                    "query": {
+                                        "sort": [],
+                                        "limit": 30,
+                                        "logic": "AND",
+                                        "filters": []
+                                    }
+                                }
+                            }
+                        ],
+                        "style": "col-lg-12"
+                    }
+                ],
+                "wid": "1d537efb-908d-495c-9bfd-657d9a8c5880",
+                "_collapsed": false
+            }
+        ],
+        "wid": "eb6fecab-53b7-4060-a0e1-2b1b29f0066f"
+    },
+    "uuid": "modules-knowledge_base-list"
+}
