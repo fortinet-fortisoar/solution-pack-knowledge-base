@@ -1,0 +1,17 @@
+{
+    "name": "knowledgebase",
+    "version": "1.0.0",
+    "display": "Knowledge Base",
+    "description": "FortiSOAR Solution Pack for knowledge base",
+    "category": [],
+    "dependencies": [],
+    "publisher": "Fortinet",
+    "certified": "true",
+    "type": "solutionpack",
+    "supportInfo": "",
+    "help":"https://github.com/fortinet-fortisoar/solution-pack-knowledge-base/blob/develop/README.md",
+    "tags": [],
+    "fsrCompatibility": [
+        "7.0.2"
+    ]
+}
