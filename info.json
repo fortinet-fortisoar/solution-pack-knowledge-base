@@ -7,7 +7,7 @@
     "dependencies": [],
     "publisher": "Fortinet",
     "certified": "true",
-    "type": "multicontent",
+    "type": "multiContent",
     "supportInfo": "support@fortinet.com",
     "help":"https://github.com/fortinet-fortisoar/solution-pack-knowledge-base/blob/develop/README.md",
     "tags": [],
