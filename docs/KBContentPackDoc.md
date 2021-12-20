@@ -1,4 +1,4 @@
-# Knowledge Base Solution Pack 7.0.2
+# Knowledge Base Solution Pack v1.0.0
 
 ## Overview
 
