@@ -9,8 +9,7 @@
             "name": "incidentResponse",
             "type": "solutionpack",
             "label": "Incident Response",
-            "install": "mandatory",
-            "version": "1.0.0"
+            "install": "mandatory"
         }
     ],
     "publisher": "Fortinet",
