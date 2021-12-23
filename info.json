@@ -4,7 +4,15 @@
     "label": "Knowledge Base",
     "description": "FortiSOAR Solution Pack for Knowledge Base",
     "category": [],
-    "dependencies": [],
+    "dependencies": [
+        {
+            "name": "incidentResponse",
+            "type": "solutionpack",
+            "label": "Incident Response",
+            "install": "mandatory",
+            "version": "1.0.0"
+        }
+    ],
     "publisher": "Fortinet",
     "certified": "true",
     "type": "multiContent",
