@@ -1,22 +1,102 @@
 {
     "name": "knowledgebase",
     "version": "1.0.0",
+    "type": "solutionpack",
+    "local": false,
     "label": "Knowledge Base",
-    "description": "FortiSOAR Solution Pack for Knowledge Base",
-    "category": [],
     "dependencies": [
         {
-            "name": "incidentResponse",
+            "name": "fortiSOAREssentials",
             "type": "solutionpack",
-            "label": "Incident Response",
-            "install": "mandatory"
+            "label": "FortiSOAR Essentials"
         }
     ],
+    "prerequisite": [],
+    "category": [],
+    "tags": [],
     "publisher": "Fortinet",
     "certified": "true",
-    "type": "multiContent",
     "supportInfo": "support@fortinet.com",
+    "description": "FortiSOAR Solution Pack for Knowledge Base",
     "help":"https://github.com/fortinet-fortisoar/solution-pack-knowledge-base/blob/develop/README.md",
-    "tags": [],
-    "fsrMinCompatibility": "7.0.2"
+    "fsrMinCompatibility": "7.2.0",
+    "date": "2022-02-11T17:03:08+00:00",
+    "exported_from": "master.fortisoar.com",
+    "exported_by": "CS Admin",
+    "contents": {
+        "picklistNames": [
+            {
+                "name": "KBCategory"
+            }
+        ],
+        "modules": {
+            "knowledge_base": []
+        },
+        "viewTemplates": {
+            "navigation": [
+                "Dashboard",
+                "Incident Response",
+                "Vulnerability Management",
+                "Automation",
+                "Resources",
+                "Reports",
+                "Marketplace",
+                "Help",
+                "User Community",
+                "Queue Management",
+                "Threat Intelligence",
+                "Widget Library",
+                "Simulations",
+                "Knowledge Base"
+            ]
+        },
+        "views": {
+            "navigation": [
+                [
+                    "Dashboard",
+                    "Incident Response",
+                    "Vulnerability Management",
+                    "Automation",
+                    "Resources",
+                    "Reports",
+                    "Help",
+                    "User Community",
+                    "Queue Management",
+                    "Threat Intelligence",
+                    "Widget Library",
+                    "Simulations",
+                    "Knowledge Base"
+                ]
+            ]
+        },
+        "roles": [
+            {
+                "name": "Application Administrator"
+            },
+            {
+                "name": "FortiSOAR Agent"
+            },
+            {
+                "name": "Full App Permissions"
+            },
+            {
+                "name": "Playbook Administrator"
+            },
+            {
+                "name": "Security Administrator"
+            },
+            {
+                "name": "T1 Analyst"
+            },
+            {
+                "name": "T2 Analyst"
+            },
+            {
+                "name": "Threat Intelligence"
+            }
+        ],
+        "recordSets": {
+            "knowledge_base": 11
+        }
+    }
 }
