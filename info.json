@@ -1,6 +1,6 @@
 {
     "name": "knowledgeBase",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "type": "solutionpack",
     "local": false,
     "label": "Knowledge Base",
