@@ -1,23 +1,27 @@
 {
-    "name": "knowledgebase",
-    "version": "1.0.0",
+    "name": "knowledgeBase",
+    "version": "1.0.1",
     "type": "solutionpack",
     "local": false,
     "label": "Knowledge Base",
     "dependencies": [
         {
-            "name": "fortiSOAREssentials",
+            "name": "sOARFramework",
             "type": "solutionpack",
-            "label": "FortiSOAR Essentials"
+            "label": "SOAR Framework",
+            "version": "1.0.0",
+            "minVersion": null
         }
     ],
     "prerequisite": [],
     "category": [],
-    "tags": [],
+    "recordTags": [],
     "publisher": "Fortinet",
     "certified": "true",
     "supportInfo": "support@fortinet.com",
     "description": "FortiSOAR Solution Pack for Knowledge Base",
+    "summary": null,
+    "iconLarge": null,
     "help":"https://github.com/fortinet-fortisoar/solution-pack-knowledge-base/blob/develop/README.md",
     "fsrMinCompatibility": "7.2.0",
     "date": "2022-02-11T17:03:08+00:00",
@@ -30,24 +34,16 @@
             }
         ],
         "modules": {
-            "knowledge_base": []
+            "knowledge_base": {
+                "name": "Knowledge Base",
+                "apiName": "knowledge_base"
+            }
         },
         "viewTemplates": {
-            "navigation": [
-                "Dashboard",
-                "Incident Response",
-                "Vulnerability Management",
-                "Automation",
-                "Resources",
-                "Reports",
-                "Marketplace",
-                "Help",
-                "User Community",
-                "Queue Management",
-                "Threat Intelligence",
-                "Widget Library",
-                "Simulations",
-                "Knowledge Base"
+            "knowledge_base": [
+                "list",
+                "detail",
+                "form"
             ]
         },
         "views": {
