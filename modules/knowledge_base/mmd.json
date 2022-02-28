@@ -1,12 +1,13 @@
 {
     "@context": "\/api\/3\/contexts\/StagingModelMetadata",
-    "@id": "\/api\/3\/staging_model_metadatas\/fed83de6-7992-4a1b-ad6e-3a2800bf2ead",
+    "@id": "\/api\/3\/staging_model_metadatas\/ceb833fc-b0dd-45d9-8a4b-6f02d7155c33",
     "@type": "StagingModelMetadata",
     "type": "knowledge_base",
     "parentType": null,
     "tableName": "knowledge_base",
     "ownable": true,
     "userOwnable": false,
+    "queueable": false,
     "trackable": true,
     "taggable": true,
     "peerReplicable": false,
@@ -16,7 +17,7 @@
     "writable": true,
     "attributes": [
         {
-            "@id": "\/api\/3\/attribute_metadatas\/66339856-439e-4f0b-b21e-303380cdbd91",
+            "@id": "\/api\/3\/attribute_metadatas\/86045381-22e1-455d-91a1-c2ab23f5b374",
             "@type": "AttributeMetadata",
             "type": "comments",
             "name": "comments",
@@ -51,11 +52,13 @@
             "identifier": null,
             "unique": false,
             "recommend": false,
-            "sattrib": "\/api\/3\/staging_model_metadatas\/fed83de6-7992-4a1b-ad6e-3a2800bf2ead",
-            "uuid": "66339856-439e-4f0b-b21e-303380cdbd91",
-            "recordTags": [
-                "FSRSolutionPack",
-                "knowledgebase-1.0.0"
+            "uuid": "86045381-22e1-455d-91a1-c2ab23f5b374",
+            "importedBy": [
+                {
+                    "apiName": "knowledgebase",
+                    "name": "Knowledge Base",
+                    "version": "1.0.0"
+                }
             ],
             "displayName": "{{ comments }}",
             "descriptions": {
@@ -63,7 +66,7 @@
             }
         },
         {
-            "@id": "\/api\/3\/attribute_metadatas\/29527c1f-0fb7-410d-91eb-e20fed9def20",
+            "@id": "\/api\/3\/attribute_metadatas\/1d5b3006-cc2a-46c6-87b4-b166caf3eed7",
             "@type": "AttributeMetadata",
             "type": "string",
             "name": "title",
@@ -102,11 +105,13 @@
             "identifier": null,
             "unique": false,
             "recommend": false,
-            "sattrib": "\/api\/3\/staging_model_metadatas\/fed83de6-7992-4a1b-ad6e-3a2800bf2ead",
-            "uuid": "29527c1f-0fb7-410d-91eb-e20fed9def20",
-            "recordTags": [
-                "FSRSolutionPack",
-                "knowledgebase-1.0.0"
+            "uuid": "1d5b3006-cc2a-46c6-87b4-b166caf3eed7",
+            "importedBy": [
+                {
+                    "apiName": "knowledgebase",
+                    "name": "Knowledge Base",
+                    "version": "1.0.0"
+                }
             ],
             "displayName": "{{ title }}",
             "descriptions": {
@@ -114,7 +119,7 @@
             }
         },
         {
-            "@id": "\/api\/3\/attribute_metadatas\/2ef1207a-0bf2-4755-967b-85e158dbcf89",
+            "@id": "\/api\/3\/attribute_metadatas\/a6a7fda2-885e-4d8f-bdf7-38db355458cd",
             "@type": "AttributeMetadata",
             "type": "string",
             "name": "notes",
@@ -153,11 +158,13 @@
             "identifier": null,
             "unique": false,
             "recommend": false,
-            "sattrib": "\/api\/3\/staging_model_metadatas\/fed83de6-7992-4a1b-ad6e-3a2800bf2ead",
-            "uuid": "2ef1207a-0bf2-4755-967b-85e158dbcf89",
-            "recordTags": [
-                "FSRSolutionPack",
-                "knowledgebase-1.0.0"
+            "uuid": "a6a7fda2-885e-4d8f-bdf7-38db355458cd",
+            "importedBy": [
+                {
+                    "apiName": "knowledgebase",
+                    "name": "Knowledge Base",
+                    "version": "1.0.0"
+                }
             ],
             "displayName": "{{ notes }}",
             "descriptions": {
@@ -165,7 +172,7 @@
             }
         },
         {
-            "@id": "\/api\/3\/attribute_metadatas\/89c02d10-a420-4191-bf9d-d3c26c358de1",
+            "@id": "\/api\/3\/attribute_metadatas\/a56eb7af-b6cb-4e59-b36e-496924ec19bb",
             "@type": "AttributeMetadata",
             "type": "picklists",
             "name": "category",
@@ -255,11 +262,13 @@
             "identifier": null,
             "unique": false,
             "recommend": false,
-            "sattrib": "\/api\/3\/staging_model_metadatas\/fed83de6-7992-4a1b-ad6e-3a2800bf2ead",
-            "uuid": "89c02d10-a420-4191-bf9d-d3c26c358de1",
-            "recordTags": [
-                "FSRSolutionPack",
-                "knowledgebase-1.0.0"
+            "uuid": "a56eb7af-b6cb-4e59-b36e-496924ec19bb",
+            "importedBy": [
+                {
+                    "apiName": "knowledgebase",
+                    "name": "Knowledge Base",
+                    "version": "1.0.0"
+                }
             ],
             "displayName": "{{ category }}",
             "descriptions": {
@@ -267,7 +276,7 @@
             }
         },
         {
-            "@id": "\/api\/3\/attribute_metadatas\/77e72336-b21c-4747-a14a-a21cbfbffeca",
+            "@id": "\/api\/3\/attribute_metadatas\/2f1e06dd-b641-447f-b3bd-91fb6598555c",
             "@type": "AttributeMetadata",
             "type": "knowledge_base",
             "name": "relatedKnowledgeBase",
@@ -302,11 +311,13 @@
             "identifier": null,
             "unique": false,
             "recommend": false,
-            "sattrib": "\/api\/3\/staging_model_metadatas\/fed83de6-7992-4a1b-ad6e-3a2800bf2ead",
-            "uuid": "77e72336-b21c-4747-a14a-a21cbfbffeca",
-            "recordTags": [
-                "FSRSolutionPack",
-                "knowledgebase-1.0.0"
+            "uuid": "2f1e06dd-b641-447f-b3bd-91fb6598555c",
+            "importedBy": [
+                {
+                    "apiName": "knowledgebase",
+                    "name": "Knowledge Base",
+                    "version": "1.0.0"
+                }
             ],
             "displayName": "{{ relatedKnowledgeBase }}",
             "descriptions": {
@@ -314,7 +325,7 @@
             }
         },
         {
-            "@id": "\/api\/3\/attribute_metadatas\/3ffdd32d-6d16-4003-906b-41156923e9da",
+            "@id": "\/api\/3\/attribute_metadatas\/745e0a17-3cb0-48be-a974-aac4934aeab7",
             "@type": "AttributeMetadata",
             "type": "knowledge_base",
             "name": "knowledge_base",
@@ -345,11 +356,13 @@
             "identifier": null,
             "unique": false,
             "recommend": false,
-            "sattrib": "\/api\/3\/staging_model_metadatas\/fed83de6-7992-4a1b-ad6e-3a2800bf2ead",
-            "uuid": "3ffdd32d-6d16-4003-906b-41156923e9da",
-            "recordTags": [
-                "FSRSolutionPack",
-                "knowledgebase-1.0.0"
+            "uuid": "745e0a17-3cb0-48be-a974-aac4934aeab7",
+            "importedBy": [
+                {
+                    "apiName": "knowledgebase",
+                    "name": "Knowledge Base",
+                    "version": "1.0.0"
+                }
             ],
             "displayName": "{{Knowledge Base}}",
             "descriptions": {
@@ -357,13 +370,25 @@
             }
         }
     ],
-    "recordTags": [
-        "FSRSolutionPack",
-        "knowledgebase-1.0.0"
-    ],
     "system": false,
     "module": "knowledge_base",
-    "uuid": "fed83de6-7992-4a1b-ad6e-3a2800bf2ead",
+    "softDeleteable": false,
+    "archivable": false,
+    "paused": false,
+    "partitionBy": "modifyDate",
+    "archivalCriteria": {
+        "keep_primary_data_for": 24,
+        "delete_primary_data_after": 60
+    },
+    "archivalFilters": [],
+    "uuid": "ceb833fc-b0dd-45d9-8a4b-6f02d7155c33",
+    "importedBy": [
+        {
+            "apiName": "knowledgebase",
+            "name": "Knowledge Base",
+            "version": "1.0.0"
+        }
+    ],
     "displayName": "{{ question }}",
     "descriptions": {
         "singular": "Knowledge Base",
