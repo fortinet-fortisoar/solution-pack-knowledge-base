@@ -15,17 +15,15 @@
     ],
     "prerequisite": [],
     "category": [],
-    "recordTags": [],
     "publisher": "Fortinet",
-    "certified": "true",
-    "supportInfo": "support@fortinet.com",
     "description": "FortiSOAR Solution Pack for Knowledge Base",
     "summary": null,
+    "help": "https:\/\/github.com\/fortinet-fortisoar\/solution-pack-knowledge-base\/blob\/develop\/README.md",
+    "supportInfo": "support@fortinet.com",
     "iconLarge": null,
-    "help":"https://github.com/fortinet-fortisoar/solution-pack-knowledge-base/blob/develop/README.md",
     "fsrMinCompatibility": "7.2.0",
-    "date": "2022-02-11T17:03:08+00:00",
-    "exported_from": "master.fortisoar.com",
+    "date": "2022-02-28T19:44:46+00:00",
+    "exported_from": "fortisoar.localhost",
     "exported_by": "CS Admin",
     "contents": {
         "picklistNames": [
@@ -49,46 +47,13 @@
         "views": {
             "navigation": [
                 [
-                    "Dashboard",
-                    "Incident Response",
-                    "Vulnerability Management",
-                    "Automation",
-                    "Resources",
-                    "Reports",
-                    "Help",
-                    "User Community",
-                    "Queue Management",
-                    "Threat Intelligence",
-                    "Widget Library",
-                    "Simulations",
                     "Knowledge Base"
                 ]
             ]
         },
         "roles": [
             {
-                "name": "Application Administrator"
-            },
-            {
-                "name": "FortiSOAR Agent"
-            },
-            {
                 "name": "Full App Permissions"
-            },
-            {
-                "name": "Playbook Administrator"
-            },
-            {
-                "name": "Security Administrator"
-            },
-            {
-                "name": "T1 Analyst"
-            },
-            {
-                "name": "T2 Analyst"
-            },
-            {
-                "name": "Threat Intelligence"
             }
         ],
         "recordSets": {
