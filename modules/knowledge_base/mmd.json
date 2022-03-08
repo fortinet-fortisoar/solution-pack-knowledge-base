@@ -323,51 +323,6 @@
             "descriptions": {
                 "singular": "Related Knowledge Base"
             }
-        },
-        {
-            "@id": "\/api\/3\/attribute_metadatas\/745e0a17-3cb0-48be-a974-aac4934aeab7",
-            "@type": "AttributeMetadata",
-            "type": "knowledge_base",
-            "name": "knowledge_base",
-            "length": null,
-            "orderIndex": 5,
-            "formType": "manyToMany",
-            "dataSource": {
-                "model": "knowledge_base"
-            },
-            "searchable": false,
-            "peerReplicable": true,
-            "system": false,
-            "encrypted": false,
-            "gridColumn": false,
-            "collection": true,
-            "inversedField": "relatedKnowledgeBase",
-            "ownsRelationship": false,
-            "validation": null,
-            "bulkAction": null,
-            "dataSourceFilters": null,
-            "defaultValue": null,
-            "tooltip": null,
-            "visibility": true,
-            "htmlEscape": false,
-            "orphanRemoval": null,
-            "readable": true,
-            "writeable": true,
-            "identifier": null,
-            "unique": false,
-            "recommend": false,
-            "uuid": "745e0a17-3cb0-48be-a974-aac4934aeab7",
-            "importedBy": [
-                {
-                    "apiName": "knowledgebase",
-                    "name": "Knowledge Base",
-                    "version": "1.0.0"
-                }
-            ],
-            "displayName": "{{Knowledge Base}}",
-            "descriptions": {
-                "singular": "Knowledge Base"
-            }
         }
     ],
     "system": false,
