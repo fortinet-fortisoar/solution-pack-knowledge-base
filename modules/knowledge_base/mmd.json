@@ -279,7 +279,7 @@
             "@id": "\/api\/3\/attribute_metadatas\/2f1e06dd-b641-447f-b3bd-91fb6598555c",
             "@type": "AttributeMetadata",
             "type": "knowledge_base",
-            "name": "relatedKnowledgeBase",
+            "name": "knowledge_base",
             "length": null,
             "orderIndex": 5,
             "formType": "manyToMany",
