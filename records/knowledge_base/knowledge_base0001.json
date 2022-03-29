@@ -13,10 +13,7 @@
         "createDate": 1636433627,
         "modifyUser": "\/api\/3\/appliances\/57545210-2adc-472b-a24f-2df6ee8dfe63",
         "modifyDate": 1636433627,
-        "owners": [
-            "\/api\/3\/teams\/6e569c09-3bd4-40f1-98b0-cc994464c3c5"
-        ],
-        "id": 1,
+        "id": "1",
         "recordTags": []
     },
     {
@@ -33,10 +30,7 @@
         "createDate": 1636433627,
         "modifyUser": "\/api\/3\/appliances\/57545210-2adc-472b-a24f-2df6ee8dfe63",
         "modifyDate": 1636433627,
-        "owners": [
-            "\/api\/3\/teams\/6e569c09-3bd4-40f1-98b0-cc994464c3c5"
-        ],
-        "id": 2,
+        "id": "2",
         "recordTags": []
     },
     {
@@ -53,10 +47,7 @@
         "createDate": 1636433627,
         "modifyUser": "\/api\/3\/appliances\/57545210-2adc-472b-a24f-2df6ee8dfe63",
         "modifyDate": 1636433627,
-        "owners": [
-            "\/api\/3\/teams\/6e569c09-3bd4-40f1-98b0-cc994464c3c5"
-        ],
-        "id": 3,
+        "id": "3",
         "recordTags": []
     },
     {
@@ -73,10 +64,7 @@
         "createDate": 1636433627,
         "modifyUser": "\/api\/3\/appliances\/57545210-2adc-472b-a24f-2df6ee8dfe63",
         "modifyDate": 1636433627,
-        "owners": [
-            "\/api\/3\/teams\/6e569c09-3bd4-40f1-98b0-cc994464c3c5"
-        ],
-        "id": 4,
+        "id": "4",
         "recordTags": []
     },
     {
@@ -93,10 +81,7 @@
         "createDate": 1636433627,
         "modifyUser": "\/api\/3\/appliances\/57545210-2adc-472b-a24f-2df6ee8dfe63",
         "modifyDate": 1636433627,
-        "owners": [
-            "\/api\/3\/teams\/6e569c09-3bd4-40f1-98b0-cc994464c3c5"
-        ],
-        "id": 5,
+        "id": "5",
         "recordTags": []
     },
     {
@@ -113,10 +98,7 @@
         "createDate": 1636433627,
         "modifyUser": "\/api\/3\/appliances\/57545210-2adc-472b-a24f-2df6ee8dfe63",
         "modifyDate": 1636433627,
-        "owners": [
-            "\/api\/3\/teams\/6e569c09-3bd4-40f1-98b0-cc994464c3c5"
-        ],
-        "id": 6,
+        "id": "6",
         "recordTags": []
     },
     {
@@ -133,10 +115,7 @@
         "createDate": 1636433627,
         "modifyUser": "\/api\/3\/appliances\/57545210-2adc-472b-a24f-2df6ee8dfe63",
         "modifyDate": 1636433627,
-        "owners": [
-            "\/api\/3\/teams\/6e569c09-3bd4-40f1-98b0-cc994464c3c5"
-        ],
-        "id": 7,
+        "id": "7",
         "recordTags": []
     },
     {
@@ -153,10 +132,7 @@
         "createDate": 1636433627,
         "modifyUser": "\/api\/3\/appliances\/57545210-2adc-472b-a24f-2df6ee8dfe63",
         "modifyDate": 1636433627,
-        "owners": [
-            "\/api\/3\/teams\/6e569c09-3bd4-40f1-98b0-cc994464c3c5"
-        ],
-        "id": 8,
+        "id": "8",
         "recordTags": []
     },
     {
@@ -173,10 +149,7 @@
         "createDate": 1636433627,
         "modifyUser": "\/api\/3\/appliances\/57545210-2adc-472b-a24f-2df6ee8dfe63",
         "modifyDate": 1636433627,
-        "owners": [
-            "\/api\/3\/teams\/6e569c09-3bd4-40f1-98b0-cc994464c3c5"
-        ],
-        "id": 9,
+        "id": "9",
         "recordTags": []
     },
     {
@@ -193,10 +166,7 @@
         "createDate": 1636433627,
         "modifyUser": "\/api\/3\/appliances\/57545210-2adc-472b-a24f-2df6ee8dfe63",
         "modifyDate": 1636433627,
-        "owners": [
-            "\/api\/3\/teams\/6e569c09-3bd4-40f1-98b0-cc994464c3c5"
-        ],
-        "id": 10,
+        "id": "10",
         "recordTags": []
     },
     {
@@ -213,10 +183,24 @@
         "createDate": 1636433627,
         "modifyUser": "\/api\/3\/appliances\/57545210-2adc-472b-a24f-2df6ee8dfe63",
         "modifyDate": 1636433627,
-        "owners": [
-            "\/api\/3\/teams\/6e569c09-3bd4-40f1-98b0-cc994464c3c5"
+        "id": "11",
+        "recordTags": []
+    },
+    {
+        "@type": "KnowledgeBase",
+        "title": "FortiSOAR NSE 7 Training",
+        "notes": "<p><a title=\"NSE 7 FortiSOAR Design and Development 6.4. Self-Paced Training\" href=\"https:\/\/training.fortinet.com\/course\/view.php?id=12927#section-1\" target=\"_blank\" rel=\"noopener\"><em>Click Here<\/em><\/a> to access 'NSE 7 - FortiSOAR Design and Development 6.4. Self-Paced' Training<\/p>\n<p>&nbsp;<\/p>\n<p>Note:<\/p>\n<ul>\n<li><span style=\"font-size: 10pt;\">This link lands you on the 'Fortinet NSE Training Institute' login page<\/span><\/li>\n<li><span style=\"font-size: 10pt;\">Choose an appropriate authentication method to continue training&nbsp;<\/span><\/li>\n<\/ul>\n<p>&nbsp;<\/p>\n<p>&nbsp;<\/p>",
+        "comments": [],
+        "category": [
+            "\/api\/3\/picklists\/a86ac799-c8bb-4313-bd9d-2c4e499ef96a"
         ],
-        "id": 11,
+        "relatedKnowledgeBase": [],
+        "uuid": "d7fee2f6-a71f-46f5-90ef-5f9ad31a4df6",
+        "createUser": "\/api\/3\/people\/3451141c-bac6-467c-8d72-85e0fab569ce",
+        "createDate": 1648544393.656056,
+        "modifyUser": "\/api\/3\/people\/3451141c-bac6-467c-8d72-85e0fab569ce",
+        "modifyDate": 1648559430.211643,
+        "id": "12",
         "recordTags": []
     }
 ]

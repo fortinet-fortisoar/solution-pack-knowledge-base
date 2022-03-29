@@ -86,7 +86,7 @@
                                                 }
                                             },
                                             "show": true,
-                                            "icon": "fa fa-none"
+                                            "icon": "fa fa-exchange"
                                         }
                                     ],
                                     "wid": "77c22b16-5b2c-4db0-bd57-7379b4d97613",
@@ -102,7 +102,8 @@
             }
         ],
         "actionButtons": [],
-        "wid": "3c2ab58c-5d30-4f95-a397-d4eb549177d4"
+        "wid": "3c2ab58c-5d30-4f95-a397-d4eb549177d4",
+        "metadata": []
     },
     "uuid": "modules-knowledge_base-detail"
 }

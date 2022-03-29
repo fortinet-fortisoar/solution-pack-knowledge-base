@@ -13,8 +13,7 @@
             "color": "#a30251",
             "icon": null,
             "listName": "\/api\/3\/picklist_names\/6d9501b5-6985-488b-9bdc-6303aa561c8b",
-            "uuid": "de4f7bba-5364-449b-9bd8-f77955d41b58",
-            "id": 302
+            "uuid": "de4f7bba-5364-449b-9bd8-f77955d41b58"
         },
         {
             "@id": "\/api\/3\/picklists\/83b10b80-ce6b-4154-8e97-8acee24755a6",
@@ -24,8 +23,7 @@
             "color": "#3314b8",
             "icon": null,
             "listName": "\/api\/3\/picklist_names\/6d9501b5-6985-488b-9bdc-6303aa561c8b",
-            "uuid": "83b10b80-ce6b-4154-8e97-8acee24755a6",
-            "id": 303
+            "uuid": "83b10b80-ce6b-4154-8e97-8acee24755a6"
         },
         {
             "@id": "\/api\/3\/picklists\/01b2c9f8-5cac-4c66-b2f3-af8ddcb5c048",
@@ -35,8 +33,7 @@
             "color": "#9514b8",
             "icon": null,
             "listName": "\/api\/3\/picklist_names\/6d9501b5-6985-488b-9bdc-6303aa561c8b",
-            "uuid": "01b2c9f8-5cac-4c66-b2f3-af8ddcb5c048",
-            "id": 304
+            "uuid": "01b2c9f8-5cac-4c66-b2f3-af8ddcb5c048"
         },
         {
             "@id": "\/api\/3\/picklists\/f5add8a2-85e6-4d61-a049-1b380736aa38",
@@ -46,8 +43,7 @@
             "color": "#b87e14",
             "icon": null,
             "listName": "\/api\/3\/picklist_names\/6d9501b5-6985-488b-9bdc-6303aa561c8b",
-            "uuid": "f5add8a2-85e6-4d61-a049-1b380736aa38",
-            "id": 305
+            "uuid": "f5add8a2-85e6-4d61-a049-1b380736aa38"
         },
         {
             "@id": "\/api\/3\/picklists\/f4fe80a3-3fa0-4461-849f-0303f0de8b33",
@@ -57,8 +53,7 @@
             "color": "#14b88f",
             "icon": null,
             "listName": "\/api\/3\/picklist_names\/6d9501b5-6985-488b-9bdc-6303aa561c8b",
-            "uuid": "f4fe80a3-3fa0-4461-849f-0303f0de8b33",
-            "id": 306
+            "uuid": "f4fe80a3-3fa0-4461-849f-0303f0de8b33"
         },
         {
             "@id": "\/api\/3\/picklists\/aff2c6c1-bd36-4d94-9b70-c94ba7a27eda",
@@ -68,8 +63,7 @@
             "color": "#b83014",
             "icon": null,
             "listName": "\/api\/3\/picklist_names\/6d9501b5-6985-488b-9bdc-6303aa561c8b",
-            "uuid": "aff2c6c1-bd36-4d94-9b70-c94ba7a27eda",
-            "id": 307
+            "uuid": "aff2c6c1-bd36-4d94-9b70-c94ba7a27eda"
         },
         {
             "@id": "\/api\/3\/picklists\/c3a91d3c-f3a8-49dd-a255-d68568fa59a0",
@@ -79,8 +73,7 @@
             "color": "#13c92e",
             "icon": null,
             "listName": "\/api\/3\/picklist_names\/6d9501b5-6985-488b-9bdc-6303aa561c8b",
-            "uuid": "c3a91d3c-f3a8-49dd-a255-d68568fa59a0",
-            "id": 308
+            "uuid": "c3a91d3c-f3a8-49dd-a255-d68568fa59a0"
         },
         {
             "@id": "\/api\/3\/picklists\/845e8f27-0ac4-41fa-8c19-6d95efcdbf75",
@@ -90,10 +83,18 @@
             "color": "#1b6dc9",
             "icon": null,
             "listName": "\/api\/3\/picklist_names\/6d9501b5-6985-488b-9bdc-6303aa561c8b",
-            "uuid": "845e8f27-0ac4-41fa-8c19-6d95efcdbf75",
-            "id": 309
+            "uuid": "845e8f27-0ac4-41fa-8c19-6d95efcdbf75"
+        },
+        {
+            "@id": "\/api\/3\/picklists\/a86ac799-c8bb-4313-bd9d-2c4e499ef96a",
+            "@type": "Picklist",
+            "itemValue": "Learning",
+            "orderIndex": 8,
+            "color": "#FFC000",
+            "icon": null,
+            "listName": "\/api\/3\/picklist_names\/6d9501b5-6985-488b-9bdc-6303aa561c8b",
+            "uuid": "a86ac799-c8bb-4313-bd9d-2c4e499ef96a"
         }
     ],
-    "uuid": "6d9501b5-6985-488b-9bdc-6303aa561c8b",
-    "id": 52
+    "uuid": "6d9501b5-6985-488b-9bdc-6303aa561c8b"
 }
