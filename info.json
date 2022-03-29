@@ -13,19 +13,16 @@
             "minVersion": null
         }
     ],
-    "prerequisite": [],
+    "prerequisite": null,
     "certified": "true",
     "category": [],
     "publisher": "Fortinet",
     "description": "FortiSOAR Solution Pack for Knowledge Base",
-    "summary": null,
     "help": "https:\/\/github.com\/fortinet-fortisoar\/solution-pack-knowledge-base\/blob\/develop\/README.md",
     "supportInfo": "support@fortinet.com",
     "iconLarge": null,
     "fsrMinCompatibility": "7.2.0",
-    "date": "2022-02-28T19:44:46+00:00",
-    "exported_from": "fortisoar.localhost",
-    "exported_by": "CS Admin",
+    "date": "2022-03-29T13:12:44+00:00",
     "contents": {
         "picklistNames": [
             {
@@ -47,9 +44,7 @@
         },
         "views": {
             "navigation": [
-                [
-                    "Knowledge Base"
-                ]
+                "Knowledge Base"
             ]
         },
         "roles": [
@@ -57,8 +52,12 @@
                 "name": "Full App Permissions"
             }
         ],
-        "recordSets": {
-            "knowledge_base": 11
-        }
+        "recordSets": [
+            {
+                "name": null,
+                "apiName": "knowledge_base",
+                "count": 12
+            }
+        ]
     }
 }

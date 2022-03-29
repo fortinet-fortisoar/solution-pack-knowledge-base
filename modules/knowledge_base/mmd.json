@@ -1,11 +1,11 @@
 {
     "@context": "\/api\/3\/contexts\/StagingModelMetadata",
-    "@id": "\/api\/3\/staging_model_metadatas\/ceb833fc-b0dd-45d9-8a4b-6f02d7155c33",
+    "@id": "\/api\/3\/staging_model_metadatas\/4e264410-03f7-413f-885d-801950bcc6c7",
     "@type": "StagingModelMetadata",
     "type": "knowledge_base",
     "parentType": null,
     "tableName": "knowledge_base",
-    "ownable": true,
+    "ownable": false,
     "userOwnable": false,
     "queueable": false,
     "trackable": true,
@@ -53,13 +53,6 @@
             "unique": false,
             "recommend": false,
             "uuid": "86045381-22e1-455d-91a1-c2ab23f5b374",
-            "importedBy": [
-                {
-                    "apiName": "knowledgebase",
-                    "name": "Knowledge Base",
-                    "version": "1.0.0"
-                }
-            ],
             "displayName": "{{ comments }}",
             "descriptions": {
                 "singular": "Comments"
@@ -106,13 +99,6 @@
             "unique": false,
             "recommend": false,
             "uuid": "1d5b3006-cc2a-46c6-87b4-b166caf3eed7",
-            "importedBy": [
-                {
-                    "apiName": "knowledgebase",
-                    "name": "Knowledge Base",
-                    "version": "1.0.0"
-                }
-            ],
             "displayName": "{{ title }}",
             "descriptions": {
                 "singular": "Title"
@@ -159,13 +145,6 @@
             "unique": false,
             "recommend": false,
             "uuid": "a6a7fda2-885e-4d8f-bdf7-38db355458cd",
-            "importedBy": [
-                {
-                    "apiName": "knowledgebase",
-                    "name": "Knowledge Base",
-                    "version": "1.0.0"
-                }
-            ],
             "displayName": "{{ notes }}",
             "descriptions": {
                 "singular": "Notes"
@@ -263,13 +242,6 @@
             "unique": false,
             "recommend": false,
             "uuid": "a56eb7af-b6cb-4e59-b36e-496924ec19bb",
-            "importedBy": [
-                {
-                    "apiName": "knowledgebase",
-                    "name": "Knowledge Base",
-                    "version": "1.0.0"
-                }
-            ],
             "displayName": "{{ category }}",
             "descriptions": {
                 "singular": "Category"
@@ -292,7 +264,7 @@
             "encrypted": false,
             "gridColumn": false,
             "collection": true,
-            "inversedField": "knowledge_base",
+            "inversedField": "relatedKnowledgeBase",
             "ownsRelationship": true,
             "validation": {
                 "required": false,
@@ -312,13 +284,6 @@
             "unique": false,
             "recommend": false,
             "uuid": "2f1e06dd-b641-447f-b3bd-91fb6598555c",
-            "importedBy": [
-                {
-                    "apiName": "knowledgebase",
-                    "name": "Knowledge Base",
-                    "version": "1.0.0"
-                }
-            ],
             "displayName": "{{ relatedKnowledgeBase }}",
             "descriptions": {
                 "singular": "Related Knowledge Base"
@@ -336,14 +301,7 @@
         "delete_primary_data_after": 60
     },
     "archivalFilters": [],
-    "uuid": "ceb833fc-b0dd-45d9-8a4b-6f02d7155c33",
-    "importedBy": [
-        {
-            "apiName": "knowledgebase",
-            "name": "Knowledge Base",
-            "version": "1.0.0"
-        }
-    ],
+    "uuid": "4e264410-03f7-413f-885d-801950bcc6c7",
     "displayName": "{{ question }}",
     "descriptions": {
         "singular": "Knowledge Base",
