@@ -2,7 +2,7 @@
     "name": "knowledgeBase",
     "version": "1.0.1",
     "type": "solutionpack",
-    "local": false,
+    "local": true,
     "label": "Knowledge Base",
     "dependencies": [
         {
@@ -14,15 +14,15 @@
         }
     ],
     "prerequisite": null,
-    "certified": "true",
-    "category": [],
+    "certified": "false",
     "publisher": "Fortinet",
     "description": "FortiSOAR Solution Pack for Knowledge Base",
-    "help": "https:\/\/github.com\/fortinet-fortisoar\/solution-pack-knowledge-base\/blob\/develop\/README.md",
-    "supportInfo": "support@fortinet.com",
+    "help": "https://github.com/fortinet-fortisoar/solution-pack-knowledge-base/blob/develop/README.md",
+    "category": [],
+    "supportInfo": "",
     "iconLarge": null,
     "fsrMinCompatibility": "7.2.0",
-    "date": "2022-03-29T13:12:44+00:00",
+    "date": "2022-04-08T18:28:39+00:00",
     "contents": {
         "picklistNames": [
             {
@@ -36,11 +36,15 @@
             }
         },
         "viewTemplates": {
-            "knowledge_base": [
-                "list",
-                "detail",
-                "form"
-            ]
+            "knowledge_base": {
+                "name": "Knowledge Base",
+                "apiName": "knowledge_base",
+                "views": [
+                    "list",
+                    "detail",
+                    "form"
+                ]
+            }
         },
         "views": {
             "navigation": [
@@ -54,7 +58,7 @@
         ],
         "recordSets": [
             {
-                "name": null,
+                "name": "Knowledge Base",
                 "apiName": "knowledge_base",
                 "count": 12
             }
