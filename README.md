@@ -9,7 +9,7 @@
 
 ## Overview
 
-*Knowledge Base* solution pack is designed to provide best practices to configure and use FortiSOAR™ in an optimal manner. The FortiSOAR™ Knowledge Base Solution Pack provides the user with information about different things like (triage process, tools etc) used in a SOAR.
+*Knowledge Base* solution pack provides knowledge about best practices, triage process, tools, etc. used in a FortiSOAR.
 
 ### Usage
 
