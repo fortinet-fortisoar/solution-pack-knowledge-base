@@ -1,5 +1,3 @@
-# Knowledge Base Solution Pack
-
 ## Release Information
 
 - Solution Pack Version: 1.0.1
@@ -9,15 +7,15 @@
 
 ## Overview
 
-*Knowledge Base* solution pack provides knowledge about best practices, triage process, tools, etc. used in a FortiSOAR.
+**Knowledge Base Solution Pack** provides knowledge about best practices, triage process, tools, etc. used in a FortiSOAR.
 
 ### Usage
 
 The Knowledge Base Solution Pack contains the following:
 
-- Knowledge Base Module: The Knowledge Base module contains records that explain to the user different process, tools, etc used on SOAR.
-- KBCategory Picklist: A picklist using which users can categorize records created in the Knowledge Base module.
-- Records that are related to the Knowledge Base: These are sample records that are created in the Knowledge Base module, which provide the users with tools and processes used in FortiSOAR and SOARs in general:  
+- **Knowledge Base Module**: The Knowledge Base module contains records that explain to the user different process, tools, etc used in SOAR.
+- **KBCategory Picklist**: A picklist using which users can categorize records created in the Knowledge Base module.
+- **Records that are related to the Knowledge Base**: These are sample records that are created in the Knowledge Base module, which provide the users with tools and processes used in FortiSOAR and SOARs in general:  
   ![Sample Knowledge Base records](docs/KBSampleRecords.png)
 
 ## Prerequisites
@@ -28,9 +26,11 @@ The Knowledge Base Solution Pack contains the following:
 
 ## Contents
 
-1. Record Set(s)
-    - Scenario: Knowledge Base (12)
-2. Module Schema(s)
+1. Module Schema(s)
     - Knowledge Base
+
+2. Record Set(s)
+    - Scenario: Knowledge Base (12)
+
 3. Picklist(s)
     - KBCategory
